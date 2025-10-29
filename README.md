@@ -30,7 +30,7 @@ API Name (integration code)
 Updating the metadata with correct API names and generating a new metadata file ready for deployment.
 
 
-_**Prerequisites_**
+_**Prerequisites**_
 
 Before running the script, ensure you have:
 
