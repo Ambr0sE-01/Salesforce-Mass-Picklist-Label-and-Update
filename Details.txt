@@ -24,4 +24,4 @@ Note: Make sure u have kept two columns inside the excel Label and API Names , j
 labels API Name
 
 Thats it then just make sure you have kept them in the correct directory
-and boom we afre all set
+and boom we are all set
