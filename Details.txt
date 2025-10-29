@@ -8,7 +8,7 @@ for country,state and city and now the main challenging part comes so to Integra
 For Example lets concider we have the shipping country as United Arab Emirates and the same country name in Infor is stored as the code ARE so let the integration happen between both the orgs smoothly 
 in SF we have to use the API names of that particular Picklist value so when we create any picklist in SF the value that we enter for picklist it becomes the Label name and the API names of that Particualt picklist
 so now lets say we have 800+ countries so going to every picklist value and clicking edit and changing them manually is a bit hectic , so now you can say why dont we keep the picklist values as codes that a great 
-thinking but the thing is we are aware of the labels and the respective API_Names of that but the users aren't aware of it like they dont know whether of r 'United Arab Emirates' the Api name is 'ARE' or 'UAE'
+thinking but the thing is we are aware of the labels and the respective API_Names of that but the users aren't aware of it like they dont know whether for 'United Arab Emirates' the Api name is 'ARE' or 'UAE'
 or something else they will go to the address field of Account and just select the names example United Arab Emirates(Country) , ABU DHABI(State), ABU DHABI(City).
 
 
