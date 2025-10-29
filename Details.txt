@@ -1,0 +1,27 @@
+Hi Guys, I am creating this project so that bascically people dont have to do manual upgradation of picklist values for any particular field in Salesforce.
+
+So bascically you might ask why this project , this is a simple task like anyone can just go and update the picklist values manually just by clicking edit button beside the picklist values inside the SF field.
+that's absolutely correct, but just concider it in a bigger perspective , let me explain my scenario , so bascically we all know in SF there is Address field(Billing and Shipping address) field by default so 
+from our client end we had a requirement that they wanted to have a dropdown(Picklist) for four types of address Shipping,Selling,Pay by and Invoice address and every type of address they wanted it to be a picklist
+for country,state and city and now the main challenging part comes so to Integrate these address of the users with InforLN we need to have the same codes for the countries , state and cities .
+
+For Example lets concider we have the shipping country as United Arab Emirates and the same country name in Infor is stored as the code ARE so let the integration happen between both the orgs smoothly 
+in SF we have to use the API names of that particular Picklist value so when we create any picklist in SF the value that we enter for picklist it becomes the Label name and the API names of that Particualt picklist
+so now lets say we have 800+ countries so going to every picklist value and clicking edit and changing them manually is a bit hectic , so now you can say why dont we keep the picklist values as codes that a great 
+thinking but the thing is we are aware of the labels and the respective API_Names of that but the users aren't aware of it like they dont know whether of r 'United Arab Emirates' the Api name is 'ARE' or 'UAE'
+or something else they will go to the address field of Account and just select the names example United Arab Emirates(Country) , ABU DHABI(State), ABU DHABI(City).
+
+
+So now coming to the solution part I have created a Python script that will go through the excel containing the Label and the API_Names of the corresponding countries,state,cities [in my case as provided by InforLN]
+So now we need three things before we proceed 
+
+1. Metadata of the field containing the old Label and API_names of the picklist
+2. Excel , from where we will be taking reference to update the old metadata file using python
+3. Last and the final thing Python Script to automate the complete task.
+
+
+Note: Make sure u have kept two columns inside the excel Label and API Names , just these two columns nothing else , Label column will have the picklist values labels and the API Names columns will have the Picklist
+labels API Name
+
+Thats it then just make sure you have kept them in the correct directory
+and boom we afre all set
