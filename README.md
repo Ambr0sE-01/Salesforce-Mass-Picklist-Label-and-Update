@@ -2,10 +2,12 @@
 
 
 
-Overview
+_**Overview**_
+
 This project automates the process of updating picklist values in Salesforce fields using a Python script. Instead of manually editing each picklist value (which can be tedious for large datasets), this solution leverages metadata and an Excel reference file to update API names efficiently.
 
-Why This Project?
+_**Why This Project?**_
+
 Manually updating picklist values in Salesforce is simple for a few entries, but consider scenarios with hundreds or thousands of values. For example:
 
 A client requires dropdowns for Shipping, Selling, Pay By, and Invoice Address fields.
@@ -14,7 +16,8 @@ Integration with InforLN demands that Salesforce picklist API names match InforL
 
 Doing this manually for 800+ countries (and their states/cities) is time-consuming and error-prone. Users should see friendly labels like United Arab Emirates, but the backend must use correct API names for integration.
 
-Solution
+_**Solution**_
+
 The Python script automates this process by:
 
 Reading Salesforce metadata for the target field.
@@ -27,11 +30,13 @@ API Name (integration code)
 Updating the metadata with correct API names and generating a new metadata file ready for deployment.
 
 
-Prerequisites
+_**Prerequisites_**
+
 Before running the script, ensure you have:
 
 
-Salesforce Metadata
+_**Salesforce Metadata**_
+
 Export the metadata of the field containing the old picklist values.
 
 
