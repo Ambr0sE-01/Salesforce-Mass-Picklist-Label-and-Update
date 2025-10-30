@@ -4,3 +4,15 @@ that I have in my excel.[For this scenario I have two Python Scrips just check o
 
 
 and make sure for the Python script to function properly all the necessary libraries and packages are installed in your Visual Studios
+
+
+IMPORTANT POINTS
+
+1. Make sure u have all the necessary libraries and packages installed present in the Code
+2. Format the excel as Column A [API_Name]  and Column B [Label]
+3. Rename the existing(The metadata file you want to update) Metadata File as Account.object
+4. Make sure you have placed all the files in correct directory 
+5. Run the file in your VS Code terminal
+
+
+Enjoy !!!
