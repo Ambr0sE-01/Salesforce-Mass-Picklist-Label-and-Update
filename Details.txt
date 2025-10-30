@@ -1,4 +1,4 @@
-Hi Guys, I am creating this project so that bascically people dont have to do manual upgradation of picklist values for any particular field in Salesforce.
+Hi Guys, I have created this project so that people dont have to do manual upgradation of picklist values for any particular field in Salesforce.
 
 So bascically you might ask why this project , this is a simple task like anyone can just go and update the picklist values manually just by clicking edit button beside the picklist values inside the SF field.
 that's absolutely correct, but just concider it in a bigger perspective , let me explain my scenario , so bascically we all know in SF there is Address field(Billing and Shipping address) field by default so 
